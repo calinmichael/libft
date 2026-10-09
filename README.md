@@ -1,10 +1,10 @@
 *This project has been created as part of the 42 curriculum by ccascava*
 
-## Description
+# Description
 
 The goal of this project is to recreate multiple useful functions from the standard C library from scratch.
 
-## Instructions
+# Instructions
 
 Make sure to include the header file at the top of your C file:
 
@@ -25,13 +25,13 @@ make clean — Removes object files.
 make fclean — Removes object files and the library.
 make re — Recompiles everything.
 
-## Resources
+# Resources
 
 I used the man pages, which I found very useful, especially for the first part of the project. I also used GeeksforGeeks as a resource to better understand certain functions, their usage, and their functionality. Lastly, I used AI for similar purposes, to improve my understanding of linked lists, as well as formatting this document.
 
-## Functions
+# Functions
 
-# Character Functions
+## Character Functions
 	
 	- ft_isalpha
 	- ft_isdigit
@@ -41,7 +41,7 @@ I used the man pages, which I found very useful, especially for the first part o
 	- ft_toupper
 	- ft_tolower
 
-# String Functions
+## String Functions
 	
 	- ft_strlen
 	- ft_strchr
@@ -56,7 +56,7 @@ I used the man pages, which I found very useful, especially for the first part o
 	- ft_strmapi
 	- ft_striteri
 
-# Memory Functions
+## Memory Functions
 	
 	- ft_memset
 	- ft_bzero
@@ -66,12 +66,12 @@ I used the man pages, which I found very useful, especially for the first part o
 	- ft_memcmp
 	- ft_calloc
 
-# Conversion Functions
+## Conversion Functions
 	
 	- ft_atoi
 	- ft_itoa
 
-# Linked List Functions
+## Linked List Functions
 	
 	- ft_lstnew
 	- ft_lstadd_front
@@ -83,6 +83,6 @@ I used the man pages, which I found very useful, especially for the first part o
 	- ft_lstiter
 	- ft_lstmap
 
-## Author
+# Author
 
 Calin Cascaval — 42 School Vienna
