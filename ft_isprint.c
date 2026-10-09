@@ -6,16 +6,17 @@
 /*   By: ccascava <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 13:00:20 by ccascava          #+#    #+#             */
-/*   Updated: 2026/09/28 13:07:53 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/09 09:51:58 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/** #include <stdio.h> **/
+
+#include "libft.h"
 
 int	ft_isprint(int value)
 {
-	if ((value >= 0 && value <= 31) || value == 127)
+	if (value >= 32 && value <= 126)
 	{
-		return (0);
+		return (1);
 	}
-	return (1);
+	return (0);
 }

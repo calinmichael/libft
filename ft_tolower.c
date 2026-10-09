@@ -6,9 +6,11 @@
 /*   By: ccascava <ccascava@student.42vienna.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 09:19:48 by ccascava          #+#    #+#             */
-/*   Updated: 2026/09/30 09:23:14 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/08 15:30:32 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

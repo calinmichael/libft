@@ -6,10 +6,10 @@
 /*   By: ccascava <ccascava@student.42vienna.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 12:38:39 by ccascava          #+#    #+#             */
-/*   Updated: 2026/10/06 14:24:33 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:17:12 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/**#include <stdio.h>**/
+
 #include "libft.h"
 
 int	ft_isalnum(int value)
@@ -20,12 +20,3 @@ int	ft_isalnum(int value)
 	}
 	return (1);
 }
-
-/**
-int main()
-{
-	int value = 'h';
-	int result = ft_isalnum(value);
-	printf("%d", result);
-}
-**/

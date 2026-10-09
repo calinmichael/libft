@@ -9,7 +9,8 @@
 /*   Updated: 2026/09/28 13:18:22 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/**#include <stdio.h>**/
+
+#include "libft.h"
 
 int	ft_isascii(int value)
 {

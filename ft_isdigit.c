@@ -6,10 +6,11 @@
 /*   By: ccascava <ccascava@student.42vienna.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 12:03:36 by ccascava          #+#    #+#             */
-/*   Updated: 2026/09/28 13:13:42 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:16:20 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/** #include <stdio.h> **/
+
+#include "libft.h"
 
 int	ft_isdigit(int value)
 {
@@ -19,13 +20,3 @@ int	ft_isdigit(int value)
 	}
 	return (1);
 }
-
-/**
-int main()
-{
-	char value[] = "473";
-	int result = ft_isdigit(value);
-	printf("%d", result);
-	return (0);
-}
-**/

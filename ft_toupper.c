@@ -6,9 +6,11 @@
 /*   By: ccascava <ccascava@student.42vienna.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 09:14:59 by ccascava          #+#    #+#             */
-/*   Updated: 2026/09/30 09:19:17 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/08 15:31:18 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

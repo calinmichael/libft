@@ -9,7 +9,7 @@
 /*   Updated: 2026/10/01 13:46:49 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/** #include <stdio.h> **/
+
 #include "libft.h"
 
 int	ft_isalpha(int value)
@@ -20,12 +20,3 @@ int	ft_isalpha(int value)
 	}
 	return (1);
 }
-
-/**
-int main()
-{
-	int isalpha = 'b';
-	int result = ft_isalpha(isalpha);
-	printf("%d", result);
-	return (0);
-}**/

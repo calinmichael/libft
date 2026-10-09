@@ -6,7 +6,7 @@
 /*   By: ccascava <ccascava@student.42vienna.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 13:17:41 by ccascava          #+#    #+#             */
-/*   Updated: 2026/10/07 13:13:17 by ccascava         ###   ########.fr       */
+/*   Updated: 2026/10/09 10:04:27 by ccascava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	{
 		current = temp;
 		temp = temp->next;
-		del(current->content);
-		free(current);
+		ft_lstdelone(current, del);
 	}
 	*lst = NULL;
 }

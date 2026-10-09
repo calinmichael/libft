@@ -1,63 +1,88 @@
-Project Name - Libft
+*This project has been created as part of the 42 curriculum by ccascava*
 
-Libft is a custom C library that has a lot of commonly used functions from the C standard library.
-It is part of the 42 School curriculum and is useful for practicing C programming.
+## Description
 
-Description - The goal for this project is to recreate multiple useful functions from the standard C
-			  library from scratch.
+The goal of this project is to recreate multiple useful functions from the standard C library from scratch.
 
-Functions - Character functions:
-				-	ft_isalpha
-				-	ft_isdigit
-				-	ft_isalnum
-				-	ft_isascii
-				-	ft_isprint
-				-	ft_toupper
-				-	ft_tolower
+## Instructions
 
-		  - String functions:
-				-	ft_strlen
-				-	ft_strchr
-				-	ft_strrchr
-				-	ft_strncmp
-				-	ft_strnstr
-				-	ft_strdup
-				-	ft_substr
-				-	ft_strjoin
-				-	ft_strtrim
-				-	ft_split
-				-	ft_strmapi
-				-	ft_striteri
+Make sure to include the header file at the top of your C file:
 
-		  - Memory functions:
-				-	ft_memset
-				-	ft_bzero
-				-	ft_memcpy
-				-	ft_memmove
-				-	ft_memchr
-				-	ft_memcmp
-				-	ft_calloc
+#include "libft.h"
 
-		  - Conversion functions:
-				-	ft_atoi
-				-	ft_itoa
 
-		  - Linked List functions:
-				-	ft_lstnew
-				-	ft_lstadd_front
-				-	ft_lstsize
-				-	ft_lstlast
-				-	ft_lstadd_back
-				-	ft_lstdelone
-				-	ft_lstclear
-				-	ft_lstiter
-				-	ft_lstmap
+You can then compile your program by typing:
 
-Compilation - The project includes a Makefile to compile libft. If you use the command make, it
-			  creates libft.a. To remove object files, you could use make clean. To remove object
-			  files and the library, you would use make fclean. Lastly to recompile everything, use 			  make re.
+cc main.c libft.a
 
-Usage - You must make sure to include the header file at the top of your C file: #include "libft.h".		Then you can compile by typing cc main.c libft.a; main.c being the C file you created.
 
-Author - Calin Cascaval
-		 42 School Vienna
+Here, main.c is the C file you created.
+
+The project includes a Makefile to compile libft. Using the command make creates libft.a.
+
+make — Compiles the library and creates libft.a.
+make clean — Removes object files.
+make fclean — Removes object files and the library.
+make re — Recompiles everything.
+
+## Resources
+
+I used the man pages, which I found very useful, especially for the first part of the project. I also used GeeksforGeeks as a resource to better understand certain functions, their usage, and their functionality. Lastly, I used AI for similar purposes, to improve my understanding of linked lists, as well as formatting this document.
+
+## Functions
+
+# Character Functions
+	
+	- ft_isalpha
+	- ft_isdigit
+	- ft_isalnum
+	- ft_isascii
+	- ft_isprint
+	- ft_toupper
+	- ft_tolower
+
+# String Functions
+	
+	- ft_strlen
+	- ft_strchr
+	- ft_strrchr
+	- ft_strncmp
+	- ft_strnstr
+	- ft_strdup
+	- ft_substr
+	- ft_strjoin
+	- ft_strtrim
+	- ft_split
+	- ft_strmapi
+	- ft_striteri
+
+# Memory Functions
+	
+	- ft_memset
+	- ft_bzero
+	- ft_memcpy
+	- ft_memmove
+	- ft_memchr
+	- ft_memcmp
+	- ft_calloc
+
+# Conversion Functions
+	
+	- ft_atoi
+	- ft_itoa
+
+# Linked List Functions
+	
+	- ft_lstnew
+	- ft_lstadd_front
+	- ft_lstsize
+	- ft_lstlast
+	- ft_lstadd_back
+	- ft_lstdelone
+	- ft_lstclear
+	- ft_lstiter
+	- ft_lstmap
+
+## Author
+
+Calin Cascaval — 42 School Vienna
